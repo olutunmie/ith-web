@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading {
+  @apply text-9xl leading-[90%] font-u8 uppercase;
+}
+
+.heading-main {
+  @apply text-[150px] leading-[90%] font-u8 uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+  .heading {
+    @apply text-7xl;
+  }
+
+  .heading-main {
+    @apply text-[100px];
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    @apply text-5xl;
+  }
+
+  .heading-main {
+    @apply text-[80px];
+  }
+}
