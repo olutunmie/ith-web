@@ -1,0 +1,66 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Donate - ITH">
+	<main>
+    <section class="p-5 bg-[#252121] text-white relative">
+      <div class="container">
+        <h1 class="my-48 text-5xl text-center">Donate to this program</h1>
+        <div
+          class="max-w-2xl mx-auto p-10 text-center mb-40 bg-purple-800 text-white"
+        >
+          <h4 class="text-lg mb-10">Donate in Kind</h4>
+          <p>
+            We accept donations in kind. If you would like to donate laptops,
+            books, or other tech gear for our members , please reach out to
+            us. we appreciate the gesture
+          </p>
+        </div>
+        <div
+          class="max-w-2xl mx-auto p-10 text-center bg-purple-800 text-white"
+        >
+          <h4 class="text-lg mb-10">Donate in Cash</h4>
+          <p class="mb-10">
+            We recognize that every cash donation is significant and we are
+            committed to ensuring that your donation has the greatest possible
+            impact By donating to us, you will be contributing to a brighter
+            future for the tech industry and helping to create opportunities
+            for entry level tech professionals who need opportunities to scale
+            their careers
+          </p>
+
+          <button
+            class="overlay-btn bg-blue-500 text-white px-5 py-3 rounded"
+          >
+            Donate Via Bank transfer
+          </button>
+        </div>
+      </div>
+      <div
+        class="overlay h-screen bg-[rgba(0,0,0,0.40)] w-full fixed inset-0 z-[60] cursor-auto p-5 pointer-events-none transition-slow translate-x-full flex items-center justify-center"
+      >
+        <div
+          class="w-[95%] md:w-[70%] mr-auto ml-auto bg-white h-full max-h-[50vh] overflow-auto relative overlay-box transition-slow delay-100 rounded-lg"
+        >
+          <img
+            src="/assets/svgs/exit.svg"
+            alt="exit-icon"
+            class="absolute top-5 right-5 cursor-pointer z-[65] exit-btn"
+          />
+          <div class="lg:p-14 md:p-10 p-6 text-black text-center">
+            <p class="mb-10">Donate to us via:</p>
+            <p class="text-xl font-bold mb-5">1234567890</p>
+            <p class="text-lg font-bold mb-5">First Bank</p>
+            <p>Thank you</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+	</main>
+</Layout>
+
+<script  src="../scripts/base.js"></script>
+
