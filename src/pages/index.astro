@@ -1,43 +1,39 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Ibadan Talent House">
-	<main>
-		<section
-        class="hero min-h-screen relative px-5 overflow-hidden bg-[#252121]"
+  <main>
+    <section
+      class="hero min-h-screen relative px-5 overflow-hidden bg-[#252121]"
+    >
+      <div
+        class="h-screen container flex flex-col-reverse sm:flex-row gap-10 gap-y-20 justify-between pb-10 pt-36 items-start sm:items-end"
       >
-        <div
-          class="h-screen container flex flex-col-reverse sm:flex-row gap-10 gap-y-20 justify-between pb-10 pt-36 items-start sm:items-end"
+        <a href="#whoweare">
+          <img
+            src="./assets/svgs/arrow-down.svg"
+            alt="down-arrow-icon"
+            class="animate-bounce cursor-pointer"
+          />
+        </a>
+        <h1
+          class="text-white font-extrabold heading-main max-w-[200px] md:max-w-[250px] lg:max-w-[380px] mt-auto"
         >
-          <a href="#whoweare">
-            <img
-              src="./assets/svgs/arrow-down.svg"
-              alt="down-arrow-icon"
-              class="animate-bounce cursor-pointer"
-            />
-          </a>
-          <h1
-            class="text-white font-extrabold heading-main max-w-[200px] md:max-w-[250px] lg:max-w-[380px] mt-auto"
+          <span class="hero-text hero-text-1 relative inline-block">Ibadan</span
           >
-            <span class="hero-text hero-text-1 relative inline-block"
-              >Ibadan</span
-            >
-            <span class="hero-text hero-text-2 relative inline-block"
-              >Talent</span
-            >
-            <span class="hero-text hero-text-3 relative inline-block"
-              >House</span
-            >
-          </h1>
-        </div>
-      </section>
+          <span class="hero-text hero-text-2 relative inline-block">Talent</span
+          >
+          <span class="hero-text hero-text-3 relative inline-block">House</span>
+        </h1>
+      </div>
+    </section>
 
-			<section class="bg-[#0f0f0f] p-5 text-white" id="whoweare">
-        <div class="container my-40">
-          <h3 class="heading max-w-[400px] mb-8">Who we are</h3>
-          <p class="text-xl md:text-3xl">
-            <!-- ITH is a place where talented individuals come together to showcase
+    <section class="bg-[#0f0f0f] p-5 text-white" id="whoweare">
+      <div class="container my-40">
+        <h3 class="heading max-w-[400px] mb-8">Who we are</h3>
+        <p class="text-xl md:text-3xl">
+          <!-- ITH is a place where talented individuals come together to showcase
             their skills and collaborate on creative projects. It's a great
             platform for networking and finding opportunities to grow your
             talent. They often host events, workshops, and performances to
@@ -47,87 +43,69 @@ import Layout from '../layouts/Layout.astro';
             collaborate on a project, learn from others, or simply be part of a
             vibrant artistic community, ITH is the place to be. It's all about
             celebrating and nurturing talent in a fun and inclusive environment. -->
-            Talent House project is a non-profit project run by a group friends.
-            Our goal is to be able to bridge the gap in the talent pipeline in our city. 
-            By giving people opportunity to create using a digital skill. From making music, art designs, softwares 
-          </p>
-        </div>
-      </section>
+          Talent House project is a non-profit project run by a group friends. Our
+          goal is to be able to bridge the gap in the talent pipeline in our city.
+          By giving people opportunity to create using a digital skill. We want to
+          equip the next generation of builders in our city with resources and support
+          to get started with.
+        </p>
+      </div>
+    </section>
 
-			<section class="bg-[#0b0b0b] p-5 text-white" id="whatwedo">
-        <div class="container my-40">
-          <h3 class="heading max-w-[300px] mb-10">What we do</h3>
-          <p class="mb-20 text-xl">Here are some facilities we provide</p>
-          <div
-            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 gap-y-24 place-content-center"
+    <section class="bg-[#0b0b0b] p-5 text-white" id="whatwedo">
+      <div class="container my-40">
+        <h3 class="heading max-w-[300px] mb-10">What we do</h3>
+        <p class="mb-20 text-xl">Here are some facilities we provide</p>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 gap-y-24 place-content-center"
+        >
+          <article
+            class="card flex flex-col relative z-10 before:absolute before:h-[90%] before:border-4 before:border-white before:border-solid before:border-r-0 before:-bottom-5 before:-left-3 before:w-[95%] before:-z-10"
           >
-            <article
-              class="card flex flex-col relative z-10 before:absolute before:h-[90%] before:border-4 before:border-white before:border-solid before:border-r-0 before:-bottom-5 before:-left-3 before:w-[95%] before:-z-10"
-            >
-              <img class="card-image" src="/assets/images/course3.png" alt="" />
-              <div class="card-box p-4 md:p-5">
-                <h3 class="text-xl font-semibold mb-5">Co-Learning Space</h3>
-                <p class="text-base">
-                  Step into a work environment that's designed for success. Our
-                  spaces are more than just offices – they're hubs of
-                  collaboration, creativity, and comfort. With thoughtfully
-                  curated layouts, ergonomic furniture, and inspiring decor, we
-                  provide the ideal backdrop for productive interactions.
-                  Whether it's brainstorming in cozy breakout zones or
-                  discussing ideas over barista-style coffee, our environment
-                  fuels meaningful connections. Experience a workplace where
-                  comfort meets communication, and watch your team's synergy
-                  soar. Elevate your work experience with surroundings that
-                  inspire innovation and foster seamless collaboration.
-                </p>
-              </div>
-            </article>
+            <img class="card-image" src="/assets/images/course2.png" alt="" />
+            <div class="card-box p-4 md:p-5">
+              <h3 class="text-xl font-semibold mb-5">Community</h3>
+              <p class="text-base">
+                This project is a community driven project. We want to give our
+                members a community to leverage on. We collaborate with each
+                other to bring our ideas to life. We mentor each other to get
+                growth with whatever we are building
+              </p>
+            </div>
+          </article>
 
-            <article
-              class="card flex flex-col relative z-10 before:absolute before:h-[90%] before:border-4 before:border-white before:border-solid before:border-r-0 before:-bottom-5 before:-left-3 before:w-[95%] before:-z-10"
-            >
-              <img class="card-image" src="/assets/images/course2.png" alt="" />
-              <div class="card-box p-4 md:p-5">
-                <h3 class="text-xl font-semibold mb-5">Community</h3>
-                <p class="text-base">
-                  Experience uninterrupted productivity with our top-tier
-                  internet connectivity service. Whether you're working remotely
-                  or in the office, our lightning-fast speeds and reliable
-                  connections ensure you're always in sync. Say goodbye to
-                  frustrating lags and buffering, and say hello to smooth video
-                  conferences, rapid file transfers, and seamless online
-                  collaboration. Elevate your work game with a robust internet
-                  connection that supports your ambitions. Stay focused, stay
-                  efficient – stay connected with us.
-                </p>
-              </div>
-            </article>
+          <article
+            class="card flex flex-col relative z-10 before:absolute before:h-[90%] before:border-4 before:border-white before:border-solid before:border-r-0 before:-bottom-5 before:-left-3 before:w-[95%] before:-z-10"
+          >
+            <img class="card-image" src="/assets/images/course3.png" alt="" />
+            <div class="card-box p-4 md:p-5">
+              <h3 class="text-xl font-semibold mb-5">Co-Learning Space</h3>
+              <p class="text-base">
+                We are providing a learning space for our members to make use.
+                We want to give you a chance at being productive uninteruptedly
+                This project also will give support to individuals to learning
+                and collaborating with a communit
+              </p>
+            </div>
+          </article>
 
-            <article
-              class="card flex flex-col relative z-10 before:absolute before:h-[90%] before:border-4 before:border-white before:border-solid before:border-r-0 before:-bottom-5 before:-left-3 before:w-[95%] before:-z-10"
-            >
-              <img class="card-image" src="/assets/images/course1.png" alt="" />
-              <div class="card-box p-4 md:p-5">
-                <h3 class="text-xl font-semibold mb-5">Resources</h3>
-                <p class="text-base">
-                  Ignite your coding journey with our comprehensive resources
-                  and support. Whether you're a seasoned developer or just
-                  starting out, our platform provides a wealth of coding tools,
-                  tutorials, and community engagement. Access a vast library of
-                  programming languages, frameworks, and project guides, all
-                  designed to propel your skills to new heights. From debugging
-                  dilemmas to complex algorithms, we've got you covered. Join a
-                  community where knowledge sharing thrives and coding dreams
-                  come true. Unleash your potential with our coding resources –
-                  because your next breakthrough starts here
-                </p>
-              </div>
-            </article>
-          </div>
+          <article
+            class="card flex flex-col relative z-10 before:absolute before:h-[90%] before:border-4 before:border-white before:border-solid before:border-r-0 before:-bottom-5 before:-left-3 before:w-[95%] before:-z-10"
+          >
+            <img class="card-image" src="/assets/images/course1.png" alt="" />
+            <div class="card-box p-4 md:p-5">
+              <h3 class="text-xl font-semibold mb-5">Resources</h3>
+              <p class="text-base">
+                We are providing resources to get started with your ideas or
+                whatever skills you are learning. We also give our members
+                resources needed to get their ideas on the internet
+              </p>
+            </div>
+          </article>
         </div>
-      </section>
-	</main>
+      </div>
+    </section>
+  </main>
 </Layout>
 
-<script  src="../scripts/base.js"></script>
-
+<script src="../scripts/base.js"></script>
